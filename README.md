@@ -5,6 +5,7 @@ A checkout customization plugin with field prioritization and phone validation.
 ## Functional scope
 
 - Runs as a standalone WordPress plugin
+- Uses a plugin-specific PHP namespace to avoid class collisions
 - Includes an admin settings screen and an enable/disable option
 - Implements real WordPress or WooCommerce hooks for the stated workflow
 - Cleans up its option on uninstall
