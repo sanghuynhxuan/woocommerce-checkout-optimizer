@@ -15,5 +15,5 @@ require_once __DIR__ . '/includes/Support.php';
 require_once __DIR__ . '/includes/Feature.php';
 
 add_action('plugins_loaded', static function (): void {
-    (new \SangPortfolio\WoocommerceCheckoutOptimizerFeature())->register();
+    (new \SangPortfolio\WoocommerceCheckoutOptimizer\Feature())->register();
 });
