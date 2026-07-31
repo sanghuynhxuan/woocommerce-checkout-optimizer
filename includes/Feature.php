@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WoocommerceCheckoutOptimizer;
 if (! defined('ABSPATH')) { exit; }
-final class WoocommerceCheckoutOptimizerFeature {
+final class Feature {
     private const OPTION = 'woocommerce_checkout_optimizer_enabled';
     private const SLUG = 'woocommerce-checkout-optimizer';
     private const TITLE = 'WooCommerce Checkout Optimizer';
